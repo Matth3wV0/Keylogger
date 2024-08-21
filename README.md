@@ -42,15 +42,7 @@ To run this project locally:
    ```
 4. Monitor the data being sent to the attacker's Telegram bot.
 
-## Ethical Disclaimer
+## DISCLAIMER
 
 This project is intended for educational and research purposes only. The techniques demonstrated should not be used for illegal or unethical activities. Always obtain proper authorization before conducting security testing on any system.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Inspired by cybersecurity research and ethical hacking practices.
-- Special thanks to the open-source community for providing the tools and resources necessary to develop this project.
