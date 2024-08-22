@@ -1,6 +1,5 @@
 # Snake Game Keylogger - Hidden Threat Demo
-
-![Snake Game Keylogger](path/to/your/image.jpg)
+![After extract](https://github.com/user-attachments/assets/53d318e9-3702-47f2-8c90-87adaf3f5ca6)
 
 ## Overview
 
@@ -11,9 +10,6 @@ This project demonstrates how a keylogger can be embedded within a seemingly har
 1. **Phising the victim through GMAIL**
    - The keylogger code is injected into the Snake game, designed to start capturing keystrokes as soon as the game begins.
    ![Victim's machine](https://github.com/user-attachments/assets/cd290938-571e-4297-b0de-ce8a003ac599)
-
-   - After extract the zip file:
-   ![After extract](https://github.com/user-attachments/assets/53d318e9-3702-47f2-8c90-87adaf3f5ca6)
 
 2. **Running the Game:**
    - The victim plays the Snake game without realizing that their inputs are being recorded.
