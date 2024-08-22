@@ -42,11 +42,7 @@ To run this project locally:
    ```bash
    pip install -r requirements.txt
    ```
-3. Run the Snake game with the embedded keylogger:
-   ```bash
-   python snake_game_keylogger.py
-   ```
-4. Monitor the data being sent to the attacker's Telegram bot.
+3. Modify the .env file with your Telegram API.
 
 ## DISCLAIMER
 
