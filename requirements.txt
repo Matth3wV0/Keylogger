@@ -1,0 +1,8 @@
+pygame==2.5.2
+pylnk==0.2
+winshell==0.6
+pywin32==306
+pywin32-ctypes==0.2.2
+Telethon==1.33.1
+python-dotenv==1.0.0
+pynput==1.7.6
