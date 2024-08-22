@@ -1,5 +1,5 @@
 # Snake Game Keylogger - Hidden Threat Demo
-![After extract](https://github.com/user-attachments/assets/53d318e9-3702-47f2-8c90-87adaf3f5ca6)
+![Game](https://github.com/user-attachments/assets/642b780e-9e48-4770-b725-638c23f6db8a)
 
 ## Overview
 
@@ -7,9 +7,9 @@ This project demonstrates how a keylogger can be embedded within a seemingly har
 
 ## How It Works
 
-1. **Phising the victim through GMAIL**
+1. **Phising the victim through MAIL**
    - The keylogger code is injected into the Snake game, designed to start capturing keystrokes as soon as the game begins.
-   ![Victim's machine](https://github.com/user-attachments/assets/cd290938-571e-4297-b0de-ce8a003ac599)
+   ![Mail](https://github.com/user-attachments/assets/d5a133d7-0f86-4d15-9e09-a6dc05ae1965)
 
 2. **Running the Game:**
    - The victim plays the Snake game without realizing that their inputs are being recorded.
@@ -17,14 +17,14 @@ This project demonstrates how a keylogger can be embedded within a seemingly har
 
 3. **Capturing and Exfiltrating Data:**
    - The captured keystrokes are stored.
-   ![Log text](https://github.com/user-attachments/assets/74b6849e-6a06-4e3f-ba8a-33d429287a2f)
+   ![Log text](https://github.com/user-attachments/assets/1a6310fd-b6ca-4ce3-b672-f8a262e38e54)
 
    - Password stored in Google Chrome also be stealed.
-   ![Chrome data](https://github.com/user-attachments/assets/c438598d-4fa0-46af-9064-750528b3a70f)
+   ![Chrome data](https://github.com/user-attachments/assets/e1a4987b-d4f3-41e8-adc1-6c3cedd393b8)
 
 3. **Adding Keylogger to Startup**
    - To ensure persistence, the keylogger script is added to the startup folder, making it execute each time the victim’s system is restarted.
-   ![Add keylogger to startup folder](https://github.com/user-attachments/assets/a403c99b-28e5-4a45-9815-cccbe6878fa9)
+   ![Add keylogger to startup folder](https://github.com/user-attachments/assets/0db6fb7b-6aa9-4c57-824b-ca3527a5ff51)
 
 5. **Data Transmission:**
    - The data is sent securely and stealthily to the attacker's Telegram bot, and ensuring the attacker receives the information without the victim's knowledge.
