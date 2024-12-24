@@ -13,6 +13,7 @@ This project demonstrates how a keylogger can be embedded within a seemingly har
 
 1. **Phising the victim through MAIL**
    - The keylogger code is injected into the Snake game, designed to start capturing keystrokes as soon as the game begins.
+   
    ![Mail](https://github.com/user-attachments/assets/d5a133d7-0f86-4d15-9e09-a6dc05ae1965)
 
 2. **Running the Game:**
